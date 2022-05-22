@@ -1,4 +1,5 @@
 import Navbar from './components/navbar'
+import Principal from './containers/principal';
 import { ContainerBackground } from './styles/generalStyles';
 
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <ContainerBackground>
         <Navbar />
+        <Principal/>
       </ContainerBackground>
     </div>
   );
