@@ -1,4 +1,4 @@
-export const productCard = [
+export const productCardInfo = [
     {
         id: crypto.randomUUID(),
         image: "https://i.ibb.co/FWGjdBz/Product-Card-1.png",

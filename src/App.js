@@ -1,6 +1,6 @@
 import Navbar from './components/navbar'
 import Principal from './containers/principal';
-import ProductCard from './components/productCard';
+import Productos from './containers/productos';
 
 
 
@@ -9,7 +9,7 @@ function App() {
     <div>
         <Navbar />
         <Principal/>
-        <ProductCard/>
+        <Productos/>
     </div>
   );
 }

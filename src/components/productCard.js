@@ -4,8 +4,7 @@ import Product1 from '../assets/images/ProductCard-1.png'
 import GeneralButton from './generalButton';
 
 const Container = styled.div`
-   display: inline-block;
-   max-width: 363px
+   max-width: 303px
 `
 
 
@@ -29,15 +28,16 @@ const ProductDescription = styled.p`
 
 const ProductCard = ({ data }) => {
 
+    const {image, id, title, price, description} = data
 
     return (
-        <Container>
-            <Image src={Product1} />
+        <Container id={id}>
+            <Image src={image} alt={title} />
             <ContainerTextHeader>
-                <h2>Naked cakes</h2>
-                <h2>$ 288</h2>
+                <h2>{title}</h2>
+                <h2>$ {price}</h2>
             </ContainerTextHeader>
-            <ProductDescription>Pensando en los graves problemas de obesidad de la actualidad, el naked cake reduce la cantidad de calorías para consumo</ProductDescription>
+            <ProductDescription>{description}</ProductDescription>
             <GeneralButton text="ordenar ahora" style={true}/>
         </Container>
     )
