@@ -3,8 +3,9 @@ import styled from 'styled-components';
 import GeneralButton from './generalButton';
 
 const Container = styled.div`
-    width: 40%;
-    display: flex
+    width: 50%;
+    display: flex;
+    margin: 20px 0px
 
 
 `
@@ -29,13 +30,13 @@ const ContainerSecondary = styled.section`
 
 const MostSearchCard = ({data}) => {
 
-
+  const { image, id, title, price, description} = data;
     return (
         <Container>
-            <img src="https://i.ibb.co/6trZWTM/Rectangle-1.png" />
+            <img src={image} alt={title} />
             <ContainerSecondary>
-                <CardTitle>Pastel Chocoroles $418</CardTitle>
-                <Textp>Delicioso pastel elaborado con pan de chocolate, relleno de mermelada de piña, crema y...</Textp>
+                <CardTitle>{title} ${price}</CardTitle>
+                <Textp>{description}</Textp>
                 <GeneralButton text="ordenar ahora" />
             </ContainerSecondary>
         </Container>
