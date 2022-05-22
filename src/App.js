@@ -1,6 +1,6 @@
 import Navbar from './components/navbar'
 import Principal from './containers/principal';
-import { ContainerBackground } from './assets/styles/generalStyles';
+import ProductCard from './components/productCard';
 
 
 
@@ -9,6 +9,7 @@ function App() {
     <div>
         <Navbar />
         <Principal/>
+        <ProductCard/>
     </div>
   );
 }

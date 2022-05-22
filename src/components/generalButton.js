@@ -9,14 +9,22 @@ const Button = styled.button`
   border-radius: 70px;
   font-family: 'Epilogue';
   text-transform: uppercase;
+  width: ${props => props.fullWidth ? "100%" : "auto"}
 
 `
 
-const GeneralButton = ({text = "Hola"}) => {
+const GeneralButton = ({ text = "Hola", style = false }) => {
+
 
     return (
-        <>
-            <Button>{text}</Button>
+        <>{
+            style
+                ?
+                <Button fullWidth>{text}</Button>
+                :
+                <Button>{text}</Button>
+        }
+
         </>
     )
 
