@@ -7,6 +7,8 @@ const Button = styled.button`
   border: none;
   padding: 18px 56px;
   border-radius: 70px;
+  font-family: 'Epilogue';
+  text-transform: uppercase;
 
 `
 

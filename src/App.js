@@ -1,16 +1,14 @@
 import Navbar from './components/navbar'
 import Principal from './containers/principal';
-import { ContainerBackground } from './styles/generalStyles';
+import { ContainerBackground } from './assets/styles/generalStyles';
 
 
 
 function App() {
   return (
     <div>
-      <ContainerBackground>
         <Navbar />
         <Principal/>
-      </ContainerBackground>
     </div>
   );
 }

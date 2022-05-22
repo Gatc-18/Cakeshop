@@ -12,7 +12,8 @@ const Title = styled.h1`
 
 const Container = styled.div`
    height: 24px;
-   text-align: center
+   text-align: center;
+   background-color: transparent;
 `
 
 
