@@ -9,6 +9,7 @@ import { mostSearchInfo } from '../data/data';
 const Title = styled.h2`
    font-family: 'Epilogue';
    color: rgba(57, 20, 0, 0.64);
+   font-weight: 300!important;
 `
 const Text = styled.p`
    font-family: 'Epilogue';

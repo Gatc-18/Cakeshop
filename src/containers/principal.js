@@ -10,6 +10,7 @@ const Title = styled.h1`
    font-size: 4.5rem;
    line-height: 80px;
    color: #391400;
+   font-weight: 900!important;
 `
 
 const TextElement = styled.p`

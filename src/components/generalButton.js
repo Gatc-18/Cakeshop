@@ -9,6 +9,7 @@ const Button = styled.button`
   border-radius: 70px;
   font-family: 'Epilogue';
   text-transform: uppercase;
+  font-weight: 900;
   width: ${props => props.fullWidth ? "100%" : "auto"}
 
 `

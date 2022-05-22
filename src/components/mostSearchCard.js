@@ -13,6 +13,7 @@ const Container = styled.div`
 const CardTitle = styled.h2`
     font-family: 'Epilogue';
     color: #391400;
+    font-weight: 900;
 `
 
 const Textp = styled.p`
