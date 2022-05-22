@@ -52,3 +52,21 @@ export const mostSearchInfo = [
         image: "https://i.ibb.co/SKVYx9W/Rectangle-4.png"
     }
 ]
+
+export const users = [
+    {
+        id: crypto.randomUUID(),
+        name: "Robert Fox",
+        avatar: "https://i.ibb.co/WKSLJ1P/user1.png"
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Jenny Wilson",
+        avatar: "https://i.ibb.co/0cDkQNd/user2.png"
+    },
+    {
+        id: crypto.randomUUID(),
+        name: "Wade Warren",
+        avatar: "https://i.ibb.co/5xczb3k/user3.png"
+    }
+]

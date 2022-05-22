@@ -7,6 +7,7 @@ const Container = styled.div`
     height: 400px;
     padding: 30px;
     border: 1px solid pink;
+    background: white;
     &:hover{
         transform: scale(1.1)
     }
@@ -29,17 +30,18 @@ const Description = styled.p`
    color: rgba(57, 20, 0, 0.64);
 `
 
-const TestimonialCard = () => {
+const TestimonialCard = ({ data }) => {
 
+    const { name, avatar } = data;
     return (
         <Container>
             <Header>
-                <img src="https://i.ibb.co/WKSLJ1P/user1.png" alt="user"/>
-                <Name>Robert Fox</Name>
+                <img src={avatar} alt={name} />
+                <Name>{name}</Name>
             </Header>
             <section>
                 <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent neque libero, sagittis in aliquam vitae, consequat sit amet ligula. Praesent euismod pharetra diam nec tristique. In elit ipsum, pharetra ac arcu vitae, convallis cursus leo. Cras sit amet nisl nisl. In accumsan mi et congue condimentum. Quisque eu lorem erat. Donec non vulputate est. Quisque at finibus nibh.</Description>
-                <img src="https://i.ibb.co/QD89ngp/star.png" alt="starts"/>
+                <img src="https://i.ibb.co/QD89ngp/star.png" alt="starts" />
             </section>
         </Container>
     )
