@@ -1,7 +1,14 @@
+import Navbar from './components/navbar'
+import { ContainerBackground } from './styles/generalStyles';
+
+
+
 function App() {
   return (
-    <div className="App">
-      <h1>Hola</h1>
+    <div>
+      <ContainerBackground>
+        <Navbar />
+      </ContainerBackground>
     </div>
   );
 }
