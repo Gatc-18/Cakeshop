@@ -31,7 +31,7 @@ const ContainerSecondary = styled.section`
 
 const MostSearchCard = ({data}) => {
 
-  const { image, id, title, price, description} = data;
+  const { image, title, price, description} = data;
     return (
         <Container>
             <img src={image} alt={title} />
