@@ -13,7 +13,23 @@ Enamora tu paladar con los ricos pasteles que tenemos disponibles para ti.
  - Styled components (Diseño)
  - React-icons (iconos)
 
-
+## Estructura de carpetas 📂
+```
+├── public
+|  └──  index.html
+├── src
+|   └──  assets
+|          └──  images
+|          └──  styles
+|   └──  components
+|   └──  containers
+|   └──  data
+|   └──  App.js
+|   └──  index.js    
+└──README.md
+└──package.json
+└──package-lock.json
+```
 
 ## Scripts disponibles
 
