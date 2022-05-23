@@ -6,6 +6,9 @@
 .pnp.js
 yarn.lock
 
+.gitignore
+package-lock.json
+
 # testing
 /coverage
 
