@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cakeshop/static/css/main.91495e70.css",
+    "main.js": "/Cakeshop/static/js/main.ce8068d9.js",
+    "static/media/coverPrincipal.png": "/Cakeshop/static/media/coverPrincipal.d0db6a2cc774dfa303c7.png",
+    "static/media/ProductCard-1.png": "/Cakeshop/static/media/ProductCard-1.88166d0fa992bda188ae.png",
+    "index.html": "/Cakeshop/index.html",
+    "main.91495e70.css.map": "/Cakeshop/static/css/main.91495e70.css.map",
+    "main.ce8068d9.js.map": "/Cakeshop/static/js/main.ce8068d9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91495e70.css",
+    "static/js/main.ce8068d9.js"
+  ]
+}
